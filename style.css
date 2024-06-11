@@ -422,7 +422,7 @@ footer h1{
         z-i
     }
     .m1{
-        height: 180vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         padding:50PX 30PX 30px 50pX;
@@ -431,7 +431,7 @@ footer h1{
     }
     .ma{
         background: rgb(177, 199, 254);  
-        height: 50vh;
+        height: 20vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:20px 20px 20px 20px;
@@ -448,7 +448,7 @@ footer h1{
     }
     .mb{
         background: rgb(177, 199, 254);  
-        height: 50vh;
+        height: 20vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:20px 20px 20px 20px;
@@ -465,7 +465,7 @@ footer h1{
     }
     .mc{
         background: rgb(177, 199, 254);  
-        height: 50vh;
+        height: 20vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:0px 20px 0px 20px;
