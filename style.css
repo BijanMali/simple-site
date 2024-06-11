@@ -500,7 +500,7 @@ footer h1{
     }
     .ca{
         background: rgb(227, 235, 255);
-        height: 55vh;
+        height: 45vh;
         width: 70vw;
         padding:20px 20px 20px 20px ;
         margin:10px 10px 10px 10px;
@@ -526,7 +526,7 @@ footer h1{
     }
     .cb{
         background: rgb(227, 235, 255);
-        height: 55vh;
+        height: 45vh;
         width: 70vw;
         padding:20px 20px 20px 20px ;
         margin:10px 10px 10px 10px;
@@ -540,7 +540,7 @@ footer h1{
     }
     .cc{
         background: rgb(227, 235, 255);
-        height: 55vh;
+        height: 45vh;
         width: 70vw;
         padding:20px 20px 20px 20px ;
         margin:10px 10px 10px 10px;
@@ -550,6 +550,13 @@ footer h1{
         position: relative;
         top: 0;
         transition-duration: 0.5s;
+        flex-wrap: wrap;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         flex-wrap: wrap;
     }
 }
