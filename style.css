@@ -301,6 +301,7 @@ body {
 }
 #sec2{
     background-color: rgb(192, 205, 255);
+    height:105vh;
 }
 .head2{
     display: flex;
@@ -491,7 +492,7 @@ footer h1{
         font-size:25px;
     }
     #sec2{
-        height: 200vh;
+        height: 150vh;
     }
     .c1{
         height: 200vh;
