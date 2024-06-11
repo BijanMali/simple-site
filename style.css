@@ -72,7 +72,6 @@ body {
     transition-duration: 0.3s;
     position: relative;
     top: 0;
-    cursor:pointer;
 }
 
 .b1:hover {
@@ -158,12 +157,14 @@ body {
     height: 50vh;
     width:vw;
     display: flex;
-    padding:50PX 20PX 0 40PX;
+    padding:50PX 50PX 0px 50pX;
+    justify-content: center;
 }
 
 .ma{
   background: rgb(177, 199, 254);  
   height: 30vh;
+  width: 27vw;
   padding:20px 20px 20px 20px ;
   margin:0px 20px 0px 20px;
   border: solid 0px;
@@ -172,10 +173,12 @@ body {
   position: relative;
   top: 0;
   transition-duration: 0.5s;
+  flex-wrap: wrap;
 }
 .mb{
     background: rgb(177, 199, 254);  
     height: 30vh;
+    width: 27vw;
     padding:20px 20px 20px 20px ;
     margin:0px 20px 0px 20px;
     border: solid 0px;
@@ -185,10 +188,12 @@ body {
     position: relative;
     top: 0;
     transition-duration: 0.5s;
+    flex-wrap: wrap;
 }
 .mc{
     background: rgb(177, 199, 254);  
     height: 30vh;
+    width: 27vw;
     padding:20px 20px 20px 20px ;
     margin:0px 20px 0px 20px;
     border: solid 0px;
@@ -198,6 +203,7 @@ body {
     position: relative;
     top: 0;
     transition-duration: 0.5s;
+    flex-wrap: wrap;
 }
 .img-a,.img-b,.img-c{
     height: 70px;
@@ -220,4 +226,139 @@ body {
 .link1 ,.link2,.link3{
     text-decoration: none;
     color :rgb(16, 16, 16)
+}
+.c1{
+    height: 70vh;
+    width:vw;
+    display: flex;
+    padding:80PX 70PX 80px 70PX;
+    justify-content: center;
+}
+
+.ca{
+    background: rgb(227, 235, 255);
+    height: 50vh;
+    padding:20px 20px 20px 20px ;
+    margin:0px 40px 0px 40px;
+    width: 20vw;
+    border: solid 0px;
+    border-radius:25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
+}
+
+.cb{
+    background: rgb(227, 235, 255);
+    height: 50vh;
+    width: 20vw;
+    padding:20px 20px 20px 20px ;
+    margin:0px 40px 0px 40px;
+    border: solid 0px;
+    border-radius:25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
+}
+.cc{
+    background: rgb(227, 235, 255);  
+    height: 50vh;
+    width: 20vw;
+    padding:20px 20px 20px 20px ;
+    margin:0px 40px 0px 40px;
+    border: solid 0px;
+    border-radius:25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
+}
+.img-1,.img-2,.img-3{
+    height: 100px;
+}
+.ca:hover{
+    cursor:pointer;
+    background-color: rgb(245, 250, 255);
+    top: -15px;
+}
+.cb:hover{
+    cursor:pointer;
+    background-color: rgb(248, 252, 255);
+    top: -15px;
+}
+.cc:hover{
+    cursor:pointer;
+    background-color: rgb(252, 253, 255);
+    top: -15px;
+}
+#sec2{
+    background-color: rgb(192, 205, 255);
+}
+.head2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 0px 20px 0px;
+    padding: 20px 0px 20px 0;
+    text-align: center;
+}
+.head2 h1{
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.head2 p{
+    margin:0px 200px 0px 200px;
+    padding: 0px 190px 0px 190px;
+    flex-wrap: wrap;
+    color: rgb(27, 27, 27);
+    font-size:25px;
+}
+
+.ba{
+    padding: 8px 20px 10px 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: rgb(42, 110, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-top: 10vh;
+}
+.ca h2{
+    padding:5px 0px 15px 0px;
+    font-size: 30px;
+}
+.cb h2{
+    padding:5px 0px 15px 0px;
+    font-size: 30px;
+}
+.cc h2{
+    padding:5px 0px 15px 0px;
+    font-size: 30px;
+}
+.ba:hover {
+    background-color: rgb(22, 92, 255);
+    font-size: 21px;
+}
+footer{
+    height:10vh;
+    background-color: rgb(0, 0, 66);
+    color: rgb(251, 252, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    font-weight: 400;
+    font-size: 20px;
 }
