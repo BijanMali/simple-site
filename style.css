@@ -431,7 +431,7 @@ footer h1{
     }
     .ma{
         background: rgb(177, 199, 254);  
-        height: 20vh;
+        height: 10vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:20px 20px 20px 20px;
@@ -444,11 +444,12 @@ footer h1{
         flex-wrap: wrap;
     }
     .ma h2 p{
-        padding:10px 0px 10px 0px
+        padding:10px 0px 10px 0px;
+        font-size:largest;
     }
     .mb{
         background: rgb(177, 199, 254);  
-        height: 20vh;
+        height: 10vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:20px 20px 20px 20px;
@@ -461,11 +462,12 @@ footer h1{
         flex-wrap: wrap;
     }
     .mb h2 p{
+        font-size:largest;
         padding:10px 0px 10px 0px;
     }
     .mc{
         background: rgb(177, 199, 254);  
-        height: 20vh;
+        height: 10vh;
         width: 80vw;
         padding:20px 20px 20px 20px ;
         margin:0px 20px 0px 20px;
@@ -479,6 +481,7 @@ footer h1{
     }
     .mc h2 p{
         padding:10px 0px 10px 0px;
+        font-size:largest;
     }
     .head2 p{
         margin:0px 20px 0px 20px;
