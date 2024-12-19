@@ -451,6 +451,11 @@ footer h1 {
         text-align: center;
     }
 
+    .head-tag h1{
+        font-size: 55px;
+        margin:0px 10px 0px 10px;
+    }
+    
     .chart {
         display: flex;
         flex-direction: column;
