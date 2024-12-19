@@ -21,6 +21,18 @@ body {
     box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.452);
 }
 
+.navbar-onclick {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px 20px 30px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(90deg, rgb(65, 0, 0) 0%, rgb(195, 156, 38) 71%, rgb(195, 38, 182) 100%);
+    border: solid 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.452);
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -84,7 +96,7 @@ body {
 .l2:hover,
 .l3:hover,
 .l4:hover {
-    font-size:20px;
+    font-size: 20px;
 }
 
 .main {
@@ -99,7 +111,7 @@ body {
     justify-content: top;
     align-items: center;
     height: 550px;
-    width: 80%;
+    /* width: 80%; */
     margin: 80px 100px 0px 100px;
     background-color: rgb(0, 6, 36);
     border: solid 0px;
@@ -140,7 +152,7 @@ body {
     height: 80%;
     width: auto;
     top: 70px;
-    left: 84%;
+    left: 80%;
     z-index: 2;
 }
 
@@ -153,96 +165,120 @@ body {
     z-index: 1;
 }
 
-.m1{
-    height: 50vh;
-    width:vw;
-    display: flex;
-    padding:50PX 50PX 0px 50pX;
+
+.ma {
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    background: rgb(177, 199, 254);
+    width: 27vw;
+    padding: 40px 20px 50px 40px;
+    margin: 0px 20px 0px 20px;
+    border: solid 0px;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
+    flex-wrap: wrap;
 }
 
-.ma{
-  background: rgb(177, 199, 254);  
-  height: 30vh;
-  width: 27vw;
-  padding:20px 20px 20px 20px ;
-  margin:0px 20px 0px 20px;
-  border: solid 0px;
-  border-radius:25px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  position: relative;
-  top: 0;
-  transition-duration: 0.5s;
-  flex-wrap: wrap;
-}
-.mb{
-    background: rgb(177, 199, 254);  
-    height: 30vh;
+.mb {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(177, 199, 254);
     width: 27vw;
-    padding:20px 20px 20px 20px ;
-    margin:0px 20px 0px 20px;
+    padding: 40px 20px 50px 40px;
+    margin: 0px 20px 0px 20px;
     border: solid 0px;
-    border-radius:25px;
+    border-radius: 25px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    position: relative;
     position: relative;
     top: 0;
     transition-duration: 0.5s;
     flex-wrap: wrap;
 }
-.mc{
-    background: rgb(177, 199, 254);  
-    height: 30vh;
+
+.mc {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(177, 199, 254);
     width: 27vw;
-    padding:20px 20px 20px 20px ;
-    margin:0px 20px 0px 20px;
+    padding: 40px 20px 50px 40px;
+    margin: 0px 20px 0px 20px;
     border: solid 0px;
-    border-radius:25px;
+    border-radius: 25px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    position: relative;
     position: relative;
     top: 0;
     transition-duration: 0.5s;
     flex-wrap: wrap;
 }
-.img-a,.img-b,.img-c{
+
+.img-a,
+.img-b,
+.img-c {
     height: 70px;
+    width: 70px;
 }
-.ma:hover{
+
+#why-head-font {
+    margin: 60px 0px 10px 0px;
+    text-align: center;
+    font-size: 47px;
+    color: rgb(0, 47, 92);
+}
+
+/* .ma:hover{
     cursor:pointer;
     background-color: aliceblue;
     top: -15px;
-}
-.mb:hover{
-    cursor:pointer;
-    background-color: aliceblue;
-    top: -15px;
-}
-.mc:hover{
-    cursor:pointer;
-    background-color: aliceblue;
-    top: -15px;
-}
-.link1 ,.link2,.link3{
+    }
+    .mb:hover{
+        cursor:pointer;
+        background-color: aliceblue;
+        top: -15px;
+        }
+        .mc:hover{
+            cursor:pointer;
+            background-color: aliceblue;
+            top: -15px;
+            } */
+.link1,
+.link2,
+.link3 {
     text-decoration: none;
-    color :rgb(16, 16, 16)
-}
-.c1{
-    height: 70vh;
-    width:vw;
-    display: flex;
-    padding:80PX 70PX 80px 70PX;
-    justify-content: center;
+    color: rgb(16, 16, 16)
 }
 
-.ca{
+@media screen and (min-width:531px) {
+    .m1 {
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        padding: 50PX 50PX 0px 50pX;
+        justify-content: center;
+    }
+
+    .c1 {   
+        display: grid;
+        /* Enables grid layout */
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+        /* Flexible column sizing */
+        /* Space between grid items */
+        padding: 40px 0px 80px 0px;
+    }
+}
+
+.ca {
+    justify-self: right;
     background: rgb(227, 235, 255);
-    height: 50vh;
-    padding:20px 20px 20px 20px ;
-    margin:0px 40px 0px 40px;
-    width: 20vw;
+    padding: 20px;
+    width: 300px;
     border: solid 0px;
-    border-radius:25px;
+    border-radius: 25px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     position: relative;
     position: relative;
@@ -251,14 +287,28 @@ body {
     flex-wrap: wrap;
 }
 
-.cb{
+.cb {
+    justify-self: center;
     background: rgb(227, 235, 255);
-    height: 50vh;
-    width: 20vw;
-    padding:20px 20px 20px 20px ;
-    margin:0px 40px 0px 40px;
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
     border: solid 0px;
-    border-radius:25px;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
+    flex-wrap: wrap;
+}
+
+.cc {
+    justify-self: left;
+    background: rgb(227, 235, 255);
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+    border: solid 0px;
+    border-radius: 25px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     position: relative;
     position: relative;
@@ -266,67 +316,64 @@ body {
     transition-duration: 0.5s;
     flex-wrap: wrap;
 }
-.cc{
-    background: rgb(227, 235, 255);  
-    height: 50vh;
-    width: 20vw;
-    padding:20px 20px 20px 20px ;
-    margin:0px 40px 0px 40px;
-    border: solid 0px;
-    border-radius:25px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    position: relative;
-    position: relative;
-    top: 0;
-    transition-duration: 0.5s;
-    flex-wrap: wrap;
-}
-.img-1,.img-2,.img-3{
+
+.img-1,
+.img-2,
+.img-3 {
     height: 100px;
 }
-.ca:hover{
-    cursor:pointer;
+
+.ca:hover {
+    cursor: pointer;
     background-color: rgb(245, 250, 255);
     top: -15px;
 }
-.cb:hover{
-    cursor:pointer;
+
+.cb:hover {
+    cursor: pointer;
     background-color: rgb(248, 252, 255);
     top: -15px;
 }
-.cc:hover{
-    cursor:pointer;
+
+.cc:hover {
+    cursor: pointer;
     background-color: rgb(252, 253, 255);
     top: -15px;
 }
-#sec2{
+
+#sec2 {
     background-color: rgb(192, 205, 255);
-    height:105vh;
+    height: auto;
+    padding-bottom: 80px;
+
 }
-.head2{
+
+.head2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:30px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
     padding: 20px 0px 20px 0;
     text-align: center;
 }
-.head2 h1{
+
+.head2 h1 {
     font-size: 50px;
-    color: rgb(27, 27, 27);
+    color: rgb(6, 0, 53);
     padding-bottom: 15px;
     padding-top: 20px;
 }
-.head2 p{
-    margin:0px 200px 0px 200px;
+
+.head2 p {
+    margin: 0px 200px 0px 200px;
     padding: 0px 190px 0px 190px;
     flex-wrap: wrap;
     color: rgb(27, 27, 27);
-    font-size:25px;
+    font-size: 25px;
 }
 
-.ba{
+.ba {
     padding: 8px 20px 10px 20px;
     border: solid 2px white;
     border-radius: 20px;
@@ -336,37 +383,44 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition-duration: 0.3s;
-    margin-top: 10vh;
+    margin-top: 80px;
 }
-.ca h2{
-    padding:5px 0px 15px 0px;
+
+.ca h2 {
+    padding: 5px 0px 15px 0px;
     font-size: 30px;
 }
-.cb h2{
-    padding:5px 0px 15px 0px;
+
+.cb h2 {
+    padding: 5px 0px 15px 0px;
     font-size: 30px;
 }
-.cc h2{
-    padding:5px 0px 15px 0px;
+
+.cc h2 {
+    padding: 5px 0px 15px 0px;
     font-size: 30px;
 }
+
 .ba:hover {
     background-color: rgb(22, 92, 255);
     font-size: 21px;
 }
-footer{
-    height:10vh;
+
+footer {
+    height: 10vh;
     background-color: rgb(0, 0, 66);
     color: rgb(251, 252, 255);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-footer h1{
+
+footer h1 {
     font-weight: 400;
     font-size: 2vh;
 }
-@media screen and (max-width:531px){
+
+@media screen and (max-width:531px) {
     .navbar {
         display: flex;
         flex-direction: row;
@@ -379,10 +433,12 @@ footer h1{
         box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.452);
         flex-wrap: wrap;
     }
-    .navbar button{
+
+    .navbar button {
         margin: 10px 0px 10px 0px;
     }
-    .head-tag{
+
+    .head-tag {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -390,10 +446,11 @@ footer h1{
         position: relative;
         top: 5px;
         margin-top: 40px;
-        padding:0px 10px 0px 10px;
+        padding: 0px 10px 0px 10px;
         font-size: 10px;
         text-align: center;
     }
+
     .chart {
         display: flex;
         flex-direction: column;
@@ -402,7 +459,7 @@ footer h1{
         height: 300px;
         width: 200%;
         margin: 80px 20px 0px 20px;
-        padding:0px 30px 0px 30px;
+        padding: 0px 30px 0px 30px;
         background-color: rgb(0, 6, 36);
         border: solid 0px;
         border-radius: 25px;
@@ -411,111 +468,142 @@ footer h1{
         position: relative;
         bottom: 30px;
     }
-    .img1{
+
+    .img1 {
         display: none;
     }
+
     .img2 {
         width: 100%;
         height: 100%;
         position: relative;
         right: 0px;
         bottom: 30px;
-        z-i
+        z-index: 1;
     }
-    .m1{
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        padding:50PX 30PX 30px 50pX;
-        justify-content: center;
-        align-items: center;
+
+    .m1 {
+        height: 57rem;
+        display: grid;
+
+        grid-template-rows: 1fr 1fr 1fr;
+        /* Defines 3 equal rows */
+        /* Full viewport height */
+        gap: 10px;
+        -ms-grid-row-align: center;
+        /* Space between grid items */
+        padding:0px;
     }
-    .ma{
-        background: rgb(177, 199, 254);  
-        height: 20vh;
-        width: 80vw;
-        padding:20px 20px 30px 20px ;
-        margin:30px 20px 30px 20px;
+
+    .ma {
+        justify-self: center;
+        background: rgb(177, 199, 254);
+        width: 82vw;
+        padding: 20px 20px 40px 20px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
     }
-    .ma h2 p{
-        padding:10px 0px 10px 0px;
-        font-size:largest;
+
+    .ma h2 p {
+        padding: 10px 0px 10px 0px;
     }
-    .mb{
-        background: rgb(177, 199, 254);  
-        height: 20vh;
-        width: 80vw;
-        padding:20px 20px 30px 20px ;
-        margin:30px 20px 30px 20px;
+
+    .mb {
+        justify-self: center;
+        background: rgb(177, 199, 254);
+        width: 82vw;
+        padding: 20px 20px 20px 20px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
     }
-    .mb h2 p{
-        font-size:largest;
-        padding:10px 0px 10px 0px;
+
+    .mb h2 p {
+        padding: 10px 0px 10px 0px;
     }
-    .mc{
-        background: rgb(177, 199, 254);  
-        height: 20vh;
-        width: 80vw;
-        padding:30px 20px 40px 20px ;
-        margin:0px 20px 0px 20px;
+    .mc {
+        justify-self: center;
+        background: rgb(177, 199, 254);
+        width: 82vw;
+        padding: 20px 20px 40px 20px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
+        height: auto;
     }
-    .mc h2 p{
-        padding:10px 0px 10px 0px;
-        font-size:largest;
+
+    .mc h2 p {
+        padding: 10px 0px 10px 0px;
     }
-    .head2 p{
-        margin:0px 20px 0px 20px;
+
+    #why-head-font{
+        margin: 80px 0px 50px 0px;
+    }
+
+    .head2 p {
+        margin: 0px 20px 0px 20px;
         padding: 0px 50px 0px 50px;
         flex-wrap: wrap;
         color: rgb(27, 27, 27);
-        font-size:25px;
+        font-size: 25px;
     }
-    #sec2{
+
+    .head2 h1{
+        font-size: 40px;
+        margin:10px 20px 0px 20px;
+        font-weight:1900;
+    }
+
+    #sec2 {
+        height: 120rem;
+
+    }
+
+
+    .c1 {
         height: 200vh;
+        width: vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* Defines 3 equal rows */
+        height: 100vh;
+        /* Full viewport height */
+        gap: 10px;
+        /* Space between grid items */
+        padding: 40px 0px 80px 0px;
+
     }
-    .c1{
-        height: 200vh;
-        width:vw;
-        display: flex;
-        padding:30PX 0PX 30px 0PX;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .ca{
+
+    .ca {
+        justify-self: center;
         background: rgb(227, 235, 255);
         height: 45vh;
         width: 70vw;
-        padding:20px 20px 20px 20px ;
+        padding: 20px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
     }
-    .ba{
+
+    .ba {
         padding: 8px 20px 10px 20px;
         border: solid 2px white;
         border-radius: 20px;
@@ -527,37 +615,55 @@ footer h1{
         transition-duration: 0.3s;
         margin-top: 6vh;
     }
-    .cb{
+
+    .cb {
+        justify-self: center;
         background: rgb(227, 235, 255);
         height: 45vh;
         width: 70vw;
-        padding:20px 20px 20px 20px ;
+        padding: 20px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
     }
-    .cc{
+
+    .cc {
+        justify-self: center;
         background: rgb(227, 235, 255);
         height: 45vh;
         width: 70vw;
-        padding:20px 20px 20px 20px ;
+        padding: 20px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
         border: solid 0px;
-        border-radius:25px;
+        border-radius: 25px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         position: relative;
         top: 0;
         transition-duration: 0.5s;
         flex-wrap: wrap;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .head-tag h1 {
+        font-size: 7vh;
+    }
+
+    .head-tag p {
+        font-size: 2.5vh;
+        padding: 0px 10px 0px 10px;
     }
 }
